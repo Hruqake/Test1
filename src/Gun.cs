@@ -6,8 +6,8 @@ namespace RainbowTrails.Patch
 {
     internal static class GunPatch
     {
-        static Color startColor = new Color(148, 0, 211);
-        static Color endColor = new Color(255, 0, 0);
+        static Color startColor = new Color(255, 102, 204);
+        static Color endColor = new Color(255, 255, 153);
         static GradientColorKey[] colorKeys = new GradientColorKey[7] {
             new GradientColorKey(new Color(148, 0, 211), 0.0f),
             new GradientColorKey(new Color(75, 0, 130), 1/6f),
